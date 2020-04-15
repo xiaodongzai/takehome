@@ -1,0 +1,37 @@
+$prefixCls: 'jsoneditor-text';
+
+.#{$prefixCls} {
+    display: flex;
+    flex-direction: column;
+
+    &-tool {
+        display: flex;
+        align-items: center;
+        flex: 0 0 40px;
+        border-bottom: 1px solid #999;
+
+        // .iconfont {
+        //     font-size: 24px;
+        //     cursor: pointer;
+        //     margin-right: 5px;
+        // }
+
+        .btn {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+
+    &-text-wp {
+        flex: 1;
+    }
+
+    &-textarea {
+        width: 100%;
+        height: 100%;
+        padding: 6px;
+        border: none;
+        resize: none;
+        outline: none;
+    }
+}

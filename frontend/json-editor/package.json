@@ -1,0 +1,37 @@
+{
+  "name": "json-editor",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "lodash": "^4.17.15",
+    "memoize-one": "^5.1.1",
+    "react": "16.12.0",
+    "react-contenteditable": "^3.3.4",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "eslint-plugin-react": "^7.19.0",
+    "node-sass": "^4.13.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
