@@ -1,0 +1,72 @@
+$prefixCls: 'jsoneditor-tree';
+
+.#{$prefixCls} {
+    font-size: 13px;
+    overflow-y: scroll;
+
+    .readonly {
+        display: inline-block;
+        color: grey;
+        min-width: 16px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .line-wp {
+        position: relative;
+        height: 28px;
+        line-height: 28px;
+
+        .icon-wp {
+            position: absolute;
+            left: -30px;
+            padding: 0 10px;
+            cursor: pointer;
+        }
+    }
+
+    .item-key {
+        box-sizing: border-box;
+        padding-right: 5px;
+        border: 1px solid transparent;
+    }
+
+    .item-text {
+        box-sizing: border-box;
+        padding-left: 5px;
+        border: 1px solid transparent;
+
+        &.number { color: #ee422e }
+        &.string { color: #006000 }
+        &.boolean { color: #ff8c00 }
+        &.null { color: #004ed0 }
+    }
+
+    .item-key span:focus,
+    .item-key span:hover,
+    .item-text span:focus,
+    .item-text span:hover {
+        outline: none;
+        background-color: #ffffab;
+        border: 1px solid #fe0;
+        border-radius: 2px;
+    }
+
+    .action-wp {
+        position: absolute;
+        right: 5px;
+        top: 0px;
+
+        .iconfont {
+            padding: 0 5px;
+            cursor: pointer;
+            color: gray;
+
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+}
